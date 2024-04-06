@@ -1,5 +1,5 @@
-const API_KEY = "c93db40d02f94bf18c5b2764a2024b97";
-const url = "https://newsapi.org/v2/everything?q="
+const API_KEY = "c93db40d02f94bf18c5b2764a2024b97";// u need to change the API_KEY to ur personal key of your id on newsapi.org
+const url = "https://newsapi.org/v2/everything?q="// chage it with the updated version of the url on newsapi.org website 
 
 window.addEventListener("load", () => fetchNews("India"));
 
